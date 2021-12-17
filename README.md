@@ -16,5 +16,7 @@ Input and output: Each input image vector 𝐱 has a corresponding target respon
 {𝒆1, 𝒆2, … , 𝒆10}. 
 Neural network: We will consider three different neural network models: (i) a neural network with no hidden layer, (ii) a neural network with one hidden layer with 7 neurons, and (iii) a neural network with one hidden layer with 49 neurons. In all the models, the input layer has 𝑑 = 784 and the output layer has 10 neurons.
 Training: We train each neural network for 10 epochs, using learning rate (/step size) 𝛼 = 0.25. 
-Evaluation: During training each neural network model (i), (ii), (iii), count the number of misclassified images after each epoch, on the separate MNIST test (/validation) set comprising 10,000 images. At the end of training (i.e., after 10 epochs), report the final number of test (/validation) errors. After building all the three neural network models, generate a plot which shows the number of errors (y axis) per each epoch (x axis) of the three models. 
+Evaluation: During training each neural network model (i), (ii), (iii), count the number of misclassified images after each epoch, on the separate MNIST test (/validation) set comprising 10,000 images. At the end of training (i.e., after 10 epochs), report the final number of test (/validation) errors. After building all the three neural network models, plot is generated to show the number of errors (y axis) per each epoch (x axis) of the three models. 
+
+![image](https://user-images.githubusercontent.com/82420256/146601085-70307c9b-e8d1-4000-83d7-b031ca8bdda6.png)
 
